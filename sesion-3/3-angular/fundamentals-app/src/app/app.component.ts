@@ -11,6 +11,7 @@ export class AppComponent implements OnInit {
 
   appName:string = 'fundamentals-app';
   angularLogo:string = "https://angular.io/assets/images/logos/angular/angular.svg"
+  pokemonLogo:string = "https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png"
 
   btnDisabled:boolean = true
   email:string = "edu@eml.run"

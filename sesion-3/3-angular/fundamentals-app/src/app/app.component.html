@@ -90,7 +90,10 @@
       </li>
     </ul>
 
-    <h4>Mi Pokedex</h4>
+    <h4>
+      <img [src]="pokemonLogo" width="200" height="75" />
+      Tarea
+    </h4>
     <div class="pokemons">
       <div *ngFor="let miPokemon of miPokedex">
         <a href={{miPokemon.url}} target="_blank">
