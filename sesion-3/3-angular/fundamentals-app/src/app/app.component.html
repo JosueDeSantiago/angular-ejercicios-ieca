@@ -95,7 +95,9 @@
       <div *ngFor="let miPokemon of miPokedex">
         <a href={{miPokemon.url}} target="_blank">
           <span>{{ miPokemon.name }}</span>
-        </a>
+          <br/>
+          <img src="https://projectpokemon.org/images/normal-sprite/{{miPokemon.name}}.gif" [alt]="miPokemon.name">
+          </a>
       </div>
     </div>
     <!-- #endregion -->
